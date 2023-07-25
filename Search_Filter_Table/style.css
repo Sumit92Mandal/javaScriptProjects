@@ -1,0 +1,29 @@
+label{
+    font-weight: bold;
+}
+#myInput{
+    background-color: bisque;
+    margin: 15px;
+    width: 50%;   
+}
+table{
+    border: 2px solid black;
+    width: 100%;
+}
+tr {
+    border: 2px solid red;
+    text-align: left;    
+}
+th{
+    background-color: green;
+    font-weight: bold;
+    border:2px solid black;
+    padding: 10px;
+}
+td{
+    padding: 5px;
+}
+.header{
+    border: 2px solid red;
+}
+ 

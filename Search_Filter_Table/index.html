@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- To link css and JS externally -->
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Search and filter table</title>
+</head>
+<body>
+    <label for="myInput"> Search: </label>
+    <input type="text" id="myInput" name="" placeholder="Enter text to search" onkeyup="searchFun()">
+
+    <table id ="myTable" >
+        <thead class="xyz">
+            <tr class="header">
+                <th>Name</th>
+                <th>Age</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody id="stuDetails">
+        </tbody> 
+    </table> 
+    
+</body>
+</html>
