@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+    <title>DependentDropDown</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="text">Drop-down box dependent on the option selected in another drop-down box</h1>
+        <div class="container1">
+            <label for="country">Country</label>
+            <select name="country" id="country" onchange="populate(this.id , 'states')">
+                <option value="selectcountry"><--select Country-</option> -->
+                <option value="India">INDIA</option>
+                <option value="Uk">UK</option>
+                <option value="Japan">JAPAN</option>
+            </select>
+        </div>
+
+        <div class="container2">
+            <label for="states">States</label>
+            <select name="states" id="states">
+            </select>
+        </div>
+    </div>
+</body>
+</html>
